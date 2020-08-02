@@ -1,0 +1,9 @@
+a = 10
+b = 20
+if a > b then
+  puts "aはbよりも大きい、とても当たり前だがこれが重要なんだ"
+elsif a < b then
+  puts "aはbよりもちいさい、これも当たり前のことだ"
+else
+  puts "aはbと同じ、やったー！"
+end
