@@ -1,0 +1,22 @@
+//配列と繰り返し
+配列.each do |variable|
+   SOME INSTRUCTION
+end
+
+//symbol 
+symbolという概念、ディクショナリのキーみなかんじだろう。
+ハッシュがほとんどディクショナリとおなじ感じ。
+Perl,PHPとかのハッシュと同じ感じかな。
+Person1 = {:name=>"後藤", :furigana=>"ゴトウ"}
+Person2 = {name: "後藤", furigana: "ゴトウ"}
+両方共同じ意味
+
+string と symbolは互いに変換可能で両者はほとんど同じ意味を持つという
+どういうところで使い分けをするのかな
+これからが楽しみだね
+
+//ハッシュの繰り返し
+ハッシュ.each do |キーの変数、値の変数|
+   SOME INSTRUCTION
+end
+これでハッシュを繰り返させれる

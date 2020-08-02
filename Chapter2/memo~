@@ -1,0 +1,9 @@
+//配列と繰り返し
+配列.each do |variable|
+   SOME INSTRUCTION
+end
+
+//symbol 
+symbol概念、ディクショナリのキーみなかんじだろう。
+ハッシュがほとんどディクショナリとおなじ感じ。
+
