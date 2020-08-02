@@ -1,0 +1,7 @@
+Rubyのメソッドでは()を省略することができる！？
+
+100.times do
+   SOME INSTRUCTIONS
+end
+で、記述された命を100回繰り返す
+

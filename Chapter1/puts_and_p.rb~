@@ -1,0 +1,2 @@
+puts "Hello,\m\tRuby."
+p "Hello,\n\tRub."
