@@ -13,3 +13,7 @@ file.each_line do |line|
     SOME INSTRUCTION
 end
 として各行に処理をほどこせるよ
+
+//第３章終了
+３章でシステム系のことが出てきてもうすでに楽しい
+すごいぞRuby
