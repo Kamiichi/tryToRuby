@@ -1,0 +1,26 @@
+class Receipt
+  def initialize(name)
+    @name = name
+    @lines = []
+  end
+
+  def lines=(lines)
+    @lines=lines
+  end
+
+  def calc
+    total = 0
+    @lines.each do |line|
+      total += line[:price] * line[:num]
+    end
+    total
+  end
+
+  def output
+    puts "レシート #{@name}"
+    @lines.each do |line|
+      puts "#{line[:name]} #{line[:price]}円 x #{line[:num]}"
+    end
+    puts "合計金額： #{calc}円"
+  end
+end
